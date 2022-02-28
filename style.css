@@ -1,0 +1,119 @@
+td {
+    border: 5px solid #333;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    top: 300px;
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child {
+    border-right: 0;
+}
+
+.endgame {
+     display: none;
+     width: 200px;
+     top: 400px;
+     background-color: rgba(205, 133, 63, 0.8);
+     position: absolute;
+     left: 50%;
+     margin-left: -100px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     text-align: center;
+     border-radius: 5px;
+     color: white;
+     font-size: 2em;
+}
+
+html {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN3oL81V2HF_ZbVpM9HDcHmIt8PKpa61nnWw&usqp=CAU);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+.table2 {
+    width: 200px;
+    margin: 0 auto;
+    background-color: #dac80b;
+    padding: 200px 200px 200px 200px;
+    border: 5px dotted black;
+  }
+
+  h1 {
+    margin-left: 650px;
+    padding: 10px 0;
+    color: #cf1d1d;
+    font-size: 100px;
+    text-shadow: 3px 3px 1px black;
+    font-family: "Chiller";
+    font-style: oblique;
+  }
+  
+.oval {
+    height: 600px;
+    display: block;
+    width: 1100px;
+    background-color: #555;
+    border-radius: 50%;
+    position: relative;
+    left: 20%;
+    margin-top: -450px;
+    border-style: double;
+    border-width: 20px;
+  }
+
+.other { 
+     font-family: Chiller;
+     font-size: 35px;
+     margin-left: 15px;
+     margin-top: 10px;
+     text-align: center;
+ } 
+
+.welcome{
+    font-size: 60px;
+    font-family: Chiller;
+    margin-left: 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.move {
+    margin-left: 510px;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    font-size: 50px;
+    background-color: red;
+    font-style: italic;
+    font-family: Chiller;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: black;
+}

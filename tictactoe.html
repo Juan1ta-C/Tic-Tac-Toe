@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>!The Unbeatable Game!</h1>
+    <table class = "table">
+        <tr>
+            <td class = "cell" id = "0"></td>
+            <td class = "cell" id = "1"></td>
+            <td class = "cell" id = "2"></td>
+        </tr>
+        <tr>
+            <td class = "cell" id = "3"></td>
+            <td class = "cell" id = "4"></td>
+            <td class = "cell" id = "5"></td>
+        </tr>
+        <tr>
+            <td class = "cell" id = "6"></td>
+            <td class = "cell" id = "7"></td>
+            <td class = "cell" id = "8"></td>
+        </tr>
+    </table>
+    <table class = "table2"></table>
+    <div class="oval">
+        <p class = "welcome"> Well hello there! </p>
+        <p class = "other"> I'm guessing the title is what brought you here and I sure am glad you came. You see the thing is there is an unbeatable game here but what fun would it be for me to watch you try and lose over and over again. How about we make a little wager? If you can win this game once, I will grant you a wish but for every turn you lose, you owe me a pint of your blood. I'm sure you are wondering what the game    is, don't worry it's one you know all to well. You think you can do it? What are you waiting for, hit the play</p>
+        <button class = "move" onClick = "start()"> PLAY </button>
+    </div>
+    <div class = "endgame">
+        <div class = "text"> </div>
+        <button onClick = "startGame()"> Replay </button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
